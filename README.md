@@ -1,6 +1,6 @@
 
 ## Predict housing prices in Portland, Oregon.
-![Python 2.7](https://img.shields.io/badge/Python-2.7-brightgreen.svg)    ![Problem Regression](https://img.shields.io/badge/Problem-Regression-red.svg)
+![Python 2.7](https://img.shields.io/badge/Python-2.7-brightgreen.svg)    ![Problem Regression](https://img.shields.io/badge/Problem-Multivariable%20Regression-orange.svg)
 #### Problem statement :
 Suppose you are selling your house and you want to know what a good market price would be. One way to do this is to first collect information on recent houses sold and make a model of housing prices.
 The file ex1data2.txt contains a training set of housing prices in Portland,Oregon. The first column is the size of the house (in square feet), the second column is the number of bedrooms and the third column is the price of the house.
