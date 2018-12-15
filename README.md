@@ -147,7 +147,7 @@ def gradientDescent(X_bias,Y,Theta,iterations,alpha):
         hypothesis = X_bias.dot(Theta.transpose())
         temp0 = Theta[0,0] - alpha*(1.0/m)*((hypothesis-Y)*(X_bias[::,0:1])).sum(axis=0)
         temp1 = Theta[0,1] - alpha*(1.0/m)*((hypothesis-Y)*(X_bias[::,1:2])).sum(axis=0)
-        temp2 = Theta[0,1] - alpha*(1.0/m)*((hypothesis-Y)*(X_bias[::,-1:])).sum(axis=0)
+        temp2 = Theta[0,2] - alpha*(1.0/m)*((hypothesis-Y)*(X_bias[::,-1:])).sum(axis=0)
         Theta[0,0] = temp0
         Theta[0,1] = temp1
         Theta[0,2] = temp2
